@@ -7,7 +7,7 @@ SELECT
     Review.comment
 FROM 
     Property
-LEFT JOIN 
+INNER JOIN 
     Review
 ON 
     Property.property_id = Review.property_id;
